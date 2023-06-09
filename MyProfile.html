@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assests/bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/bootstrap/js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="preloader.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assests/images/mylogo (2).png" type="image">
+    <title>Anjali Rajapaksha</title>
+</head>
+<body>
+<!--<div id="pre-loader">-->
+<!--    <img src="assests/images/a1111.gif" alt="preloader">-->
+<!--</div>-->
+
+<header class="header">
+    <img data-aos="fade-down" class="logo" src="assests/images/mylogo (2).png" alt="" width="90" height="75">
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#educationskills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+        <span class="active-nav"></span>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1 data-aos="zoom-in-up">Hi, I'm <span>Anjali Rajapaksha</span></h1><br>
+<!--        <div class="text-animate">-->
+            <h3>Developer  |  UI/UX Designer</h3>
+<!--        </div>-->
+    </div>
+
+    <div class="home-sci">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+        <a href="#"><i class='bx bxl-github' ></i></a>
+    </div>
+
+    <span class="home-imgHover"></span>
+</section>
+
+<section class="about" id="about">
+    <h2 data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="heading">About <span>Me</span></h2>
+
+    <div class="about-img">
+        <img src="assests/images/lili4.PNG" alt="" >
+        <span class="circle-spin"></span>
+    </div>
+
+    <div class="about-content">
+        <h2><span class="first-text">Hello,</span><span class="sec-text">I'm Anjali...</span></h2>
+        <p>I wish to design and develop software according to daily updating new technologies.
+            Therefore my vision is to provide high quality service to my clients in the future.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae cum dolores in iure,
+            laudantium maiores necessitatibus obcaecati possimus qui.</p>
+    </div>
+
+    <button data-aos="zoom-out-up" class="button">Download CV</button>
+    <script src="assests/jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+        const button = document.querySelector(".button");
+
+        button.addEventListener("click", (e) => {
+            e.preventDefault;
+            button.classList.add("animate");
+            setTimeout(() => {
+                button.classList.remove("animate");
+            }, 600);
+        });
+    </script>
+
+</section>
+
+<section class="gallery-body" id="gallery">
+    <div class="container">
+        <div class="headinggg">
+            <h3 data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom" class="heading" >Photo <span>Gallery</span></h3>
+        </div>
+        <div class="box">
+            <div class="dream">
+                <img src="assests/images/a1.JPG">
+                <img src="assests/images/a2.jpg">
+                <img src="assests/images/a3.jpg">
+                <img src="assests/images/a6.jpg">
+                <img src="assests/images/a5.JPG">
+            </div>
+
+            <div class="dream">
+                <img src="assests/images/a4.JPG">
+                <img src="assests/images/a7.JPG">
+                <img src="assests/images/a8.jpeg">
+                <img src="assests/images/a9.jpg">
+                <img src="assests/images/a10.jpg">
+            </div>
+
+            <div class="dream">
+                <img src="assests/images/a11.jpg">
+                <img src="assests/images/a12.JPG">
+                <img src="assests/images/a13.jpeg">
+                <img src="assests/images/a14.PNG">
+                <img src="assests/images/a15.jpeg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="educationskills" id="educationskills">
+    <h2 data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="heading">My <span>Journey</span></h2>
+
+    <div class="education-row">
+
+        <div class="education-colomn">
+            <h4 data-aos="zoom-in-up" class="title"> Education</h4>
+
+            <div class="education-box">
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2008 -2017 </div>
+                        <h5> GCE Ordinary Level - St'Johns Girls School</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                            praesentium quas quo sapiente voluptate.</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2018 -2021 </div>
+                        <h5> GCE Advanced Level - St'Johns Girls School</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                            praesentium quas quo sapiente voluptate.</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2021 -2022 </div>
+                        <h5> American College of Higher Education</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                            praesentium quas quo sapiente voluptate.</p>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <div class="year"><i class='bx bxs-calendar'></i> 2022 -2024 </div>
+                        <h5> Graduate Diploma in Software Engineering - IJSE</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eos facere fugit in iste odio
+                            praesentium quas quo sapiente voluptate.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="education-colomn">
+            <h4 data-aos="zoom-in-up" class="title"> Skills</h4>
+
+            <div class="education-box">
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <h5>HTML <span>95%</span></h5>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <h5>CSS <span>90%</span></h5>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <h5>JAVA <span>80%</span></h5>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <h5>JavaScript <span>75%</span></h5>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="education-content">
+                    <div class="contentedu">
+                        <h5>MySQL <span>95%</span></h5>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="projects" id="projects">
+    <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom" class="heading">My <span>Projects</span></h2>
+
+    <div class="project-container">
+        <div class="all-projectsss">
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1 data-aos="zoom-in-up">Ranga Beauty Salon</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate eaque,
+                        eos harum molestias officiis sed veniam voluptates voluptatum? At doloribus illum ipsum
+                        iste iusto officia quas, soluta velit.
+                    </p>
+                    <a href="https://github.com/anjalirajapakshar/RangaBeautySalon-LayerdArchitecture" target="_blank">Click here to find the GitHub URL...</a>
+                </div>
+                <div class="project-img">
+                    <img src="assests/images/Hair-Salon-Wallpaper.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1 data-aos="zoom-in-up">My Portfolio</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate eaque,
+                        eos harum molestias officiis sed veniam voluptates voluptatum? At doloribus illum ipsum
+                        iste iusto officia quas, soluta velit.
+                    </p>
+                    <a href="https://github.com/anjalirajapakshar/MyPortfolio" target="_blank">Click here to find the GitHub URL...</a>
+                </div>
+                <div class="project-img">
+                    <img src="assests/images/Hair-Salon-Wallpaper.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1 data-aos="zoom-in-up">POS System to a Thogakade</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate eaque,
+                        eos harum molestias officiis sed veniam voluptates voluptatum? At doloribus illum ipsum
+                        iste iusto officia quas, soluta velit.
+                    </p>
+                    <a href="https://github.com/anjalirajapakshar/assignment_08_POS_System" target="_blank">Click here to find the GitHub URL...</a>
+                </div>
+                <div class="project-img">
+                    <img src="assests/images/Hair-Salon-Wallpaper.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1 data-aos="zoom-in-up">Hotel Management System</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate eaque,
+                        eos harum molestias officiis sed veniam voluptates voluptatum? At doloribus illum ipsum
+                        iste iusto officia quas, soluta velit.
+                    </p>
+                    <a href="https://github.com/anjalirajapakshar/Hotel-Management-System" target="_blank">Click here to find the GitHub URL...</a>
+                </div>
+                <div class="project-img">
+                    <img src="assests/images/Hair-Salon-Wallpaper.jpg" alt="img">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1 data-aos="zoom-in-up">Animation Projects Set</h1>
+                    <h2>Coding is Love</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at cupiditate eaque,
+                        eos harum molestias officiis sed veniam voluptates voluptatum? At doloribus illum ipsum
+                        iste iusto officia quas, soluta velit.
+                    </p>
+                    <a href="https://github.com/anjalirajapakshar/Assignment_04" target="_blank">Click here to find the GitHub URL...</a>
+                </div>
+                <div class="project-img">
+                    <img src="assests/images/Hair-Salon-Wallpaper.jpg" alt="img">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="contactSec" id="contact">
+    <div class="containerContact">
+        <div class="contactInfo">
+            <div>
+                <h2 data-aos="zoom-in-up">Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="assests/images/location.png"></span>
+                        <span>12/48, Wedamawatha,<br>Gorakana,Keselwatta,<br>Panadura</span>
+                    </li>
+                    <li>
+                        <span><img src="assests/images/mail.png"></span>
+                        <span>anjalirajapakshaar@gmail.com</span>
+                    </li>
+                    <li>
+                        <span><img src="assests/images/call.png"></span>
+                        <span>+94 77 865 4344</span>
+                    </li>
+                </ul>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram-alt' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-github' ></i></a></li>
+            </ul>
+        </div>
+        <div class="contactForm">
+            <h2>Send a Message</h2>
+            <div class="form-box">
+                <div class="inputBox w50">
+                    <input type="text" name="" required>
+                    <span>First Name</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="text" name="" required>
+                    <span>Last Name</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="email" name="" required>
+                    <span>Email Address</span>
+                </div>
+                <div class="inputBox w50">
+                    <input type="text" name="" required>
+                    <span>Mobile Number</span>
+                </div>
+                <div class="inputBox w100">
+                    <textarea required></textarea>
+                    <span>Write your message here...</span>
+                </div>
+                <div class="inputBox w100">
+                    <input type="submit" value="send">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Anjali Rajapaksha | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+
+    // $(document).ready(() => {
+    //     setTimeout(() => {
+    //         $('#pre-loader').css('display','none')
+    //     },2000)
+    //
+    // })
+
+    //toggle icon navbar
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () => {
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    }
+
+
+
+    //scroll sections
+
+    window.onscroll = () => {
+        let header = document.querySelector('header');
+
+        header.classList.toggle('sticky',window.scrollY > 100);
+
+        //remove toggle bar when click a link
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+
+    }
+
+
+</script>
+</body>
+</html>
